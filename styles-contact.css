@@ -1,4 +1,4 @@
-/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+ /*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -53,6 +53,7 @@ table {
 
 
 
+
 /* ---------- Hello, my name is Erika DeAnda and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2020 ------------ */
 
 html, body {
@@ -60,81 +61,83 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/forest_background.jpg) 
       center center fixed no-repeat; 
     background-size: cover;
+    font-family: "helvetica", sans-serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */ 
+    max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(300, 300, 300, .60); /*this uses opacity of 60% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 90px;
+	border: 40px;
 	text-align: center;
 }
 
-h1 {
-    font-family: garamond, serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-	font-family: continuo, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
-}
 
 p {
-    font-family: garamond, serif;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	font-size: 1.4em;
+    line-height: 5;
+    color: #6D6E71;
+    
+
 }
  
-nav{
-    font-family: garamond;
-    font-size: 1.2em;
-    width: 400px;
+nav{ 
+
+    width: 55%;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    padding: 2px 0;
+    font-family: "helvetica", sans-serif;
     }
+/* all code below replaced demo style...By Josh Johnson changes horizontal navigation */    
+
+
+nav ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+nav li {
+  height: 30px;
+  float: right ;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 30px;
+  text-align: center;
     
-nav li{
-    display:inline;
-    }
+}
 
-nav a{
-    display:inline-block;
-    padding: 10px;
-    }
+nav li:last-child {
+  border-right: none;
+}
 
-a{
-    color:#444;
-    text-decoration: none;
-    font-weight: bold;
-    }
-a:hover{
-    color:black;
-    background:pink;
-    }
+nav li a {
+  text-decoration:none;
+  color: #231F20;
+  font: 18px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 1s ease;
+}
+
+nav li a:hover {
+  color: #0089B7;
+}
+
+nav li.active a {
+  font-weight: bold;
+  color: #333;
+}
 
