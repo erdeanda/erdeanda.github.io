@@ -89,7 +89,7 @@ html, body {
 p {
 	font-size: 1.4em;
     line-height: 5;
-    color: #6D6E71;
+    color: #153A50;
     
 
 }
@@ -114,7 +114,6 @@ nav li {
   height: 30px;
   float: right ;
   margin-right: 0px;
-  border-right: 1px solid #aaa;
   padding: 0 30px;
   text-align: center;
     
