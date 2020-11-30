@@ -87,9 +87,13 @@ html, body {
 
 
 p {
-	font-size: 1.4em;
-    line-height: 5;
-    color: #153A50;
+    font-size: 1.2em;
+    line-height: 1.2;
+    padding: 3.5%;
+    font-family: bree, sans-serif; /* changed font style */
+    font-weight: 300;
+    font-style: normal;
+    color: #153A50; /* changed text color */ 
     
 
 }
