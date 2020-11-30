@@ -70,12 +70,15 @@ html, body {
 }
 
 .center {
-    width: 80%; /* added this to make div responsive */ 
+   width: 80%; /* added this to make div responsive */ 
     max-width: 800px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(300, 300, 300, .60); /*this uses opacity of 60% for the background color*/
+    margin: 150px auto;
 	text-align: center;
+    width: 800px;
+    height: 500px;
+    background: rgba(300, 300, 300, .60); /*this uses opacity of 60% for the background color*/
+    border-radius: 400px / 90px;
 }
 
    
