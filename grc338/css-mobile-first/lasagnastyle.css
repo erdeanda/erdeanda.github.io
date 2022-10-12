@@ -75,6 +75,5 @@ footer{
 }
 
 li{
-    padding: 0.5rem 0rem .5rem;
+   margin: 1.5rem 1.5rem .5rem;
 }
-/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
