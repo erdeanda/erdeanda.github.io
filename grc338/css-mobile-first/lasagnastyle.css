@@ -17,7 +17,7 @@ h1 {
 	background-color:rgb(255,143,0);
 	color:rgb(255,255,255);
 	font-size:2.2em;
-	padding: 1rem 2rem 0.5rem;
+	padding: 1rem 3rem 0.5rem;
     line-height: 130%;
 	font-family:Sutro, serif;
     font-weight: 700;
@@ -27,13 +27,13 @@ h2 {
 	background-color:rgb(255,143,0);
 	color:rgb(250,221,191);
 	font-size: 1.5em;
-	padding: 0.1rem 2rem 2rem;
+	padding: 0.1rem 3rem 2rem;
 	font-family: Sutro, serif;
     font-weight: 300;
 	Font-style: normal;
 }
 figcaption{
-    padding: 0.5rem 2rem 1rem;
+    padding: 0.5rem 3rem 1rem;
     font-family: poppins,sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -46,7 +46,7 @@ h3 {
 	padding-top:.5rem;
 	font-size: 1.2em;
 	color: rgb(255,143,0);
-    padding: 2rem 2rem .5rem;
+    padding: 2rem 3rem .5rem;
     font-family: Sutro, serif;
     font-weight: 300;
     font-style: normal;
@@ -56,7 +56,7 @@ h3 {
 footer{
     background-color:rgb(255,143,0);
     color: rgb(255,255,255);
-    padding: 1rem 2rem 1rem;
+    padding: 1rem 3rem 1rem;
 }
 
 li{
