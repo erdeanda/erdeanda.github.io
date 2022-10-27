@@ -1,0 +1,97 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} 
+
+div.container {
+    background-color:rgb(255,255,255); 
+    max-width: 75em;
+    margin: auto;
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 50em 10em
+
+}
+
+main{
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+
+}
+header{
+    grid-column: 1/3;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     grid-column: 1/3;
+     max-width: 60em
+}
+
+
+        
+body {
+	background-color: rgb(221, 221, 221);
+    font-family:poppins,sans-serif; 
+    font-weight: 300;
+   
+}
+
+h1 {
+	background-color:rgb(255,143,0);
+	color:rgb(255,255,255);
+	font-size:2.2em;
+	padding: 1rem 2.5rem 0.5rem;
+    line-height: 130%;
+	font-family:Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2 {
+	background-color:rgb(255,143,0);
+	color:rgb(250,221,191);
+	font-size: 1.5em;
+	padding: 0.1rem 2.5rem 2rem;
+	font-family: Sutro, serif;
+    font-weight: 300;
+	Font-style: normal;
+}
+
+
+
+h3 {
+	padding-top:.5rem;
+	font-size: 1em;
+	color: rgb(255,143,0);
+    padding: 2rem 2.5rem 0rem;
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;   
+    border-top: .1em solid rgb(255,143,0);
+
+    
+   
+}
+
+figcaption{
+    padding: 0.5rem 1.3rem 2rem;
+    margin: 1em;
+    font-family: poppins,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 140%;
+    grid-column: 3/3;
+}
+footer{
+    background-color:rgb(255,143,0);
+    color: rgb(255,255,255);
+    padding: 1rem 2rem 1rem;
+    grid-column: 1/3;
+}
+
+li{
+   margin: 1.5rem 2rem .5rem;
+}
