@@ -1,0 +1,87 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+nav ul {
+     padding: 0rem 2rem 3rem;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: Fira Mono;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+nav ul li a {
+    color: rgb(101,127,154);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(180,193,197);
+}
+body{
+    background-color: #fafafa;
+    padding: 3rem 2rem 2rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: Depot New;
+    font-style: normal;
+}
+h1 {
+	background-color:#fafafa;
+    width: 5em;
+	font-size: 2.2em;
+    line-height: 130%;
+	font-family:Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0rem 3rem 2rem;
+}
+h2 {
+	background-color:#fafafa;
+    color: rgb(174, 150, 136);
+    width: 5rem;
+	font-size: 2em;
+	padding: 2rem 3rem 2rem;
+	font-family: Fira Mono;
+    font-weight: 300;
+	Font-style: normal;
+}
+
+h3 {
+    background-color:#fafafa;
+    padding: 0rem 2rem 0rem;
+	font-size: 2em;
+	color: rgb(120,127,134);
+    font-family: Depot New;     
+}
+
+h4 {
+    background-color:#fafafa;
+    padding: 0rem 2rem 0rem;
+	font-size: 1em;
+    font-family: Depot New;
+    font-style: normal;
+}
+
+h5 {
+    background-color:#fafafa;
+    padding: 0rem 2rem 5rem;
+	font-size: 0.9em;
+    font-family: Depot New; 
+    font-style: normal;
+}
+
+li { 
+    list-style-type: none;
+}
