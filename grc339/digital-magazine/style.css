@@ -1,0 +1,104 @@
+/*CSS document*/
+
+/* 32 - 36 em */
+body {
+background-color: #EDE7D4;
+}
+
+div.container {
+    max-width: 34em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    width: 100%;
+}
+
+h2{
+
+    font-family: Anisette Std;
+    font-style: Bold;
+    font-weight: 700;
+    text-align: center; 
+    color: rgb(61,107,156);
+    text-decoration: none;
+}
+h3{
+    font-family: Anisette Std;
+    font-style: Bold;
+    font-weight: 600;
+    text-align: center; 
+    color: rgb(61,107,156);
+    text-decoration: none;
+    margin-top:0.6em;
+    margin-bottom: 0.5rem;
+}
+nav ul{
+    padding: .5rem;
+}
+
+nav ul li {
+    width: 100%;
+    overflow: auto;
+    padding: .5rem;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    color: rgb(50,114,156);
+    font-size: 0.75em;
+    font-family: Anisette Std;
+    font-weight: 600;
+    font-style: Bold;
+    margin-left: .4em;
+}
+nav ul li a {
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(61,107,156);
+}
+
+p{
+   font-family: Termina;
+   font-style: normal;
+   font-weight: 200;
+   font-size: 0.75em; 
+   margin-bottom: 2rem;
+   margin-top: 0.2rem;
+}
+
+a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+figcaption{
+   font-family: Termina;
+   font-style: italic;
+   font-weight: 300;
+   font-size: 0.75em; 
+   margin-bottom: 3em;
+}
+
+footer{
+   font-family: Termina;
+   text-align: center;   
+   color: rgb(61,107,156);
+   margin-top: 3em;
+}
