@@ -1,5 +1,6 @@
 /*CSS document*/
 
+/* 32 - 36 em */
 body {
 background-color: #EDE7D4;
 }
@@ -39,7 +40,7 @@ h2{
 h3{
     font-family: Anisette Std;
     font-style: Bold;
-    font-weight: 600; 
+    font-weight: 600;
     color: rgb(61,107,156);
     text-decoration: none;
     margin-top:0.6em;
