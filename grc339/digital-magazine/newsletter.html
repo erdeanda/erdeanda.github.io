@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Your Fav Foodie</title>
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="newsletter">
+         <header>
+            <h1><a href="index.html"><img src="logo.svg" alt="Logo of ROAM spelled out in blue."></a></h1>
+            <!-- ★ Please use a proper alt attribute.-->
+            <nav>
+               <ul>
+                  <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                  <li><a href="#">Asia</a></li>
+                  <li><a href="#">Europe</a></li>
+                  <li><a href="#">North America</a></li>
+                  <li><a href="#">South America</a></li>
+                  <li><a href="#">Subscribe</a></li>
+               </ul>
+            </nav>
+         </header>
+         <form class="subscribe">
+            <h2>Subscribe to roam around the world!</h2>
+            <section class="personal-info">
+               <h3>Personal information</h3>
+               <ul class= "left-li">
+                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="first and last name" /></li>
+                  <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="email address" /></li>
+               </ul>
+            </section>
+            <section class="preferences">
+               <h3>What would up like to be notified about?</h3>
+               <ul>
+                  <li><input type="checkbox" id="travel-deals" value="travel-deals" /> <label for="travel-deals">Travel Deals</label></li>
+                  <li><input type="checkbox" id="travel-images" value="travel-images" /> <label for="travel-images">Travel Images</label></li>
+                  <li><input type="checkbox" id="New-articles" value="new-articles" /> <label for="new-articles">New travel articles</label></li>
+               </ul>
+            </section>
+            <section class="comments"><label for="comments">Have any further questions?</label><textarea id="comments" name="comments"></textarea></section>
+            <section>
+               <button type="submit">Submit</button>
+            </section>
+         </form>
+      </div>
+      <div>
+         <footer>
+            <p> All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
