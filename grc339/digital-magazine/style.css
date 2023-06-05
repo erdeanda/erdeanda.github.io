@@ -1,6 +1,5 @@
 /*CSS document*/
 
-/* 32 - 36 em */
 body {
 background-color: #EDE7D4;
 }
@@ -9,7 +8,6 @@ div.container {
     max-width: 60em;
     margin: auto;
 }
-
 
 figure {
     margin: 0;
@@ -152,19 +150,9 @@ figcaption{
         flex-direction: row;
     }
     
-  
-
-   
      aside{
         grid-column: 2/3;
     }
-footer{
-    font-family: Termina; 
-    color: rgb(61,107,156);
-    display: grid;
-    margin-top: 3em;
-    grid-column: 1/3;
-}
 
 h1{
     margin-bottom: 0;
@@ -237,11 +225,11 @@ div.newsletter{
     margin: auto;
 }
 .newsletter h3 {
-	color: #1e1e1e;
+    color: #1e1e1e;
 }
 
 
- header {
+header {
     margin-bottom: 4em;
 }
 
@@ -264,35 +252,42 @@ section ul li select {
 }
 
 section.personal-info ul li label {
-	flex:  0 5em;
+    flex:  0 5em;
     font-family: Termina;
     font-weight: 300;
     font-size: 1em;
 }
 
 section.preferences p {
-	padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .left-li {
-	list-style: none;
-	padding-left: 0;  
+    list-style: none;
+    padding-left: 0;  
 }
 
 textarea {
-	box-sizing: border-box;
-	display: flex;
-	width: 55%;
-	padding-bottom: 2em;
+    box-sizing: border-box;
+    display: flex;
+    width: 55%;
+    padding-bottom: 2em;
     font-family: Termina;
     
 }
 
 button {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 .subscribe h2 {
-	padding-bottom: 1em;
+    padding-bottom: 1em;
 }
- 
+
+footer{
+    font-family: Termina; 
+    color: rgb(61,107,156);
+    display: grid;
+    margin-top: 3em;
+    grid-column: 1/3;
+}
